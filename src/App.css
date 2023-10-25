@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+
+  background-color: beige;
+  color: chocolate;
 }
 
 .App-logo {
@@ -34,5 +37,34 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+section {
+  padding: 1rem;
+  display: grid;
+  grid-gap: 0.5rem;
+
+} 
+
+article {
+  text-align: left;
+  background-color: bisque;
+  color: coral;
+}
+
+.GreenDelivery {
+  background-color: greenyellow;
+}
+
+@media (min-width: 600px) {
+  section {
+     grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 780px) {
+  section {
+     grid-template-columns: auto auto auto;
   }
 }
