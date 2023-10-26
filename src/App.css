@@ -68,3 +68,16 @@ article {
      grid-template-columns: auto auto auto;
   }
 }
+
+.SearchProduct {
+
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+input {
+  padding: 1rem;
+  margin: 1rem;
+}
+
